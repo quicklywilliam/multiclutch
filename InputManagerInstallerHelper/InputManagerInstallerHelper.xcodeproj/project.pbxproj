@@ -1,0 +1,256 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 44;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE9249EC0D7711240099120A /* launch_multiclutch.scpt in CopyFiles */ = {isa = PBXBuildFile; fileRef = BE9249EB0D7711120099120A /* launch_multiclutch.scpt */; };
+		BEA4A4B70D66B4AF00CD8FD0 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 08FB7796FE84155DC02AAC07 /* main.c */; };
+		BEA4A4B80D66B4B700CD8FD0 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE1E903E0D6380A9005603D3 /* Security.framework */; };
+		BEA4A4BA0D66B4D000CD8FD0 /* InputManagerInstallerHelper.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C6859E8B029090EE04C91782 /* InputManagerInstallerHelper.1 */; };
+		BEA4A5670D66BB7200CD8FD0 /* InputManagerInstallerHelper.sh in CopyFiles */ = {isa = PBXBuildFile; fileRef = BEA4A5660D66BB7200CD8FD0 /* InputManagerInstallerHelper.sh */; };
+		BEA4A5690D66BB7700CD8FD0 /* MultiClutchInputManager in CopyFiles */ = {isa = PBXBuildFile; fileRef = BEA4A5680D66BB7700CD8FD0 /* MultiClutchInputManager */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BEA4A4CB0D66B4DE00CD8FD0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				BEA4A4BA0D66B4D000CD8FD0 /* InputManagerInstallerHelper.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEA4A5730D66BBF300CD8FD0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 6;
+			files = (
+				BE9249EC0D7711240099120A /* launch_multiclutch.scpt in CopyFiles */,
+				BEA4A5670D66BB7200CD8FD0 /* InputManagerInstallerHelper.sh in CopyFiles */,
+				BEA4A5690D66BB7700CD8FD0 /* MultiClutchInputManager in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		08FB7796FE84155DC02AAC07 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		BE1E903E0D6380A9005603D3 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = /System/Library/Frameworks/Security.framework; sourceTree = "<absolute>"; };
+		BE9249EB0D7711120099120A /* launch_multiclutch.scpt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.scpt; path = launch_multiclutch.scpt; sourceTree = "<group>"; };
+		BEA4A4A90D66B47500CD8FD0 /* InputManagerInstallerHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InputManagerInstallerHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEA4A4AB0D66B47500CD8FD0 /* InputManagerInstallerHelper-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "InputManagerInstallerHelper-Info.plist"; sourceTree = "<group>"; };
+		BEA4A5660D66BB7200CD8FD0 /* InputManagerInstallerHelper.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = InputManagerInstallerHelper.sh; sourceTree = SOURCE_ROOT; };
+		BEA4A5680D66BB7700CD8FD0 /* MultiClutchInputManager */ = {isa = PBXFileReference; lastKnownFileType = folder; path = MultiClutchInputManager; sourceTree = SOURCE_ROOT; };
+		C6859E8B029090EE04C91782 /* InputManagerInstallerHelper.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = InputManagerInstallerHelper.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BEA4A4A70D66B47500CD8FD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEA4A4B80D66B4B700CD8FD0 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* InputManagerInstallerHelper */ = {
+			isa = PBXGroup;
+			children = (
+				BEA4A53E0D66B8F400CD8FD0 /* MacOS */,
+				08FB7795FE84155DC02AAC07 /* Source */,
+				C6859E8C029090F304C91782 /* Documentation */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+				BEA4A4AB0D66B47500CD8FD0 /* InputManagerInstallerHelper-Info.plist */,
+			);
+			name = InputManagerInstallerHelper;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				BE1E903E0D6380A9005603D3 /* Security.framework */,
+				08FB7796FE84155DC02AAC07 /* main.c */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BEA4A4A90D66B47500CD8FD0 /* InputManagerInstallerHelper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BEA4A53E0D66B8F400CD8FD0 /* MacOS */ = {
+			isa = PBXGroup;
+			children = (
+				BEA4A5680D66BB7700CD8FD0 /* MultiClutchInputManager */,
+				BEA4A5660D66BB7200CD8FD0 /* InputManagerInstallerHelper.sh */,
+				BE9249EB0D7711120099120A /* launch_multiclutch.scpt */,
+			);
+			name = MacOS;
+			sourceTree = "<group>";
+		};
+		C6859E8C029090F304C91782 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				C6859E8B029090EE04C91782 /* InputManagerInstallerHelper.1 */,
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BEA4A4A80D66B47500CD8FD0 /* InputManagerInstallerHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEA4A4AE0D66B47500CD8FD0 /* Build configuration list for PBXNativeTarget "InputManagerInstallerHelper" */;
+			buildPhases = (
+				BEA4A4A60D66B47500CD8FD0 /* Sources */,
+				BEA4A4A70D66B47500CD8FD0 /* Frameworks */,
+				BEA4A4CB0D66B4DE00CD8FD0 /* CopyFiles */,
+				BEA4A5730D66BBF300CD8FD0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InputManagerInstallerHelper;
+			productName = InputManagerInstallerHelper;
+			productReference = BEA4A4A90D66B47500CD8FD0 /* InputManagerInstallerHelper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB923508733DC60010E9CD /* Build configuration list for PBXProject "InputManagerInstallerHelper" */;
+			compatibilityVersion = "Xcode 3.0";
+			hasScannedForEncodings = 1;
+			mainGroup = 08FB7794FE84155DC02AAC07 /* InputManagerInstallerHelper */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BEA4A4A80D66B47500CD8FD0 /* InputManagerInstallerHelper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BEA4A4A60D66B47500CD8FD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEA4A4B70D66B4AF00CD8FD0 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB923608733DC60010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+			};
+			name = Debug;
+		};
+		1DEB923708733DC60010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+			};
+			name = Release;
+		};
+		BEA4A4AC0D66B47500CD8FD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Carbon.framework/Headers/Carbon.h";
+				INFOPLIST_FILE = "InputManagerInstallerHelper-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Carbon,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = InputManagerInstallerHelper;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		BEA4A4AD0D66B47500CD8FD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Carbon.framework/Headers/Carbon.h";
+				INFOPLIST_FILE = "InputManagerInstallerHelper-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Carbon,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = InputManagerInstallerHelper;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB923508733DC60010E9CD /* Build configuration list for PBXProject "InputManagerInstallerHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB923608733DC60010E9CD /* Debug */,
+				1DEB923708733DC60010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEA4A4AE0D66B47500CD8FD0 /* Build configuration list for PBXNativeTarget "InputManagerInstallerHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEA4A4AC0D66B47500CD8FD0 /* Debug */,
+				BEA4A4AD0D66B47500CD8FD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}
