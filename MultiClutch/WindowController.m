@@ -19,7 +19,7 @@
 	bindings = [[BindingsController alloc] init];
 
 	//first check to see if we need to do an install prompt.
-	if(![NSApp respondsToSelector:@selector(swizzledGestureEvent:)] || (bindings.version == nil)) {//indicates whether the input manager was loaded or not
+	if(![NSApp respondsToSelector:@selector(swizzledGestureEvent:)] || !([bindings.version isEqualToString:@"b4"])) {//indicates whether the input manager was loaded or not
 		
 		//display a dialog prompting the user to install the input manager
 		[NSApp beginSheet:installPromptWindow modalForWindow:[NSApp mainWindow]

@@ -125,19 +125,19 @@ static NSArray              *padKeysArray        = nil;
         return nil;
     
 	NSString *modsString = @"";
-	if([[value substringToIndex:2] isEqualToString:@"59"]) {
+	if([value length] > 2 && [[value substringToIndex:2] isEqualToString:@"59"]) {
 		modsString = [@"⌃" stringByAppendingString:modsString];
 		value = [value substringFromIndex:3];
 	}
-	if([[value substringToIndex:2] isEqualToString:@"58"]) {
+	if([value length] > 2 &&[[value substringToIndex:2] isEqualToString:@"58"]) {
 		modsString = [@"⌥" stringByAppendingString:modsString];
 		value = [value substringFromIndex:3];
 	}
-	if([[value substringToIndex:2] isEqualToString:@"56"]) {
+	if([value length] > 2 &&[[value substringToIndex:2] isEqualToString:@"56"]) {
 		modsString = [@"⇧" stringByAppendingString:modsString];
 		value = [value substringFromIndex:3];
 	}
-	if([[value substringToIndex:2] isEqualToString:@"55"]) {
+	if([value length] > 2 &&[[value substringToIndex:2] isEqualToString:@"55"]) {
 		modsString = [@"⌘" stringByAppendingString:modsString];
 		value = [value substringFromIndex:3];
 	}

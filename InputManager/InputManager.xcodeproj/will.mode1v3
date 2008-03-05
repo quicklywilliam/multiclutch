@@ -300,15 +300,12 @@
 								<string>1058C7AEFEA557BF11CA2CBB</string>
 								<string>19C28FB8FE9D52D311CA2CBB</string>
 								<string>1C37FBAC04509CD000000102</string>
-								<string>BE434BF10D7D229600B08D82</string>
 								<string>1C37FABC05509CD000000102</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>27</integer>
-									<integer>21</integer>
-									<integer>20</integer>
+									<integer>28</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
@@ -361,7 +358,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>BE434BF20D7D229600B08D82</string>
+										<string>BE28BBF70D7E6DD3000E1260</string>
 										<key>history</key>
 										<array>
 											<string>BE7C827C0D64498C00D4FAFF</string>
@@ -369,9 +366,9 @@
 											<string>BE4A15F90D6969E1005B5513</string>
 											<string>BED1CD470D696A5000724F73</string>
 											<string>BED1CDB00D69E60D00724F73</string>
-											<string>BE60B67A0D74971B0080ACAB</string>
 											<string>BEF49DA60D76763E003A213E</string>
-											<string>BE39835B0D7CD884007E13DB</string>
+											<string>BE28BBCC0D7E6C4A000E1260</string>
+											<string>BE28BBEA0D7E6CCC000E1260</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -440,9 +437,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>BE434BF30D7D229600B08D82</string>
+				<string>BE28BBF30D7E6D2A000E1260</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>BE434BF40D7D229600B08D82</string>
+				<string>BE28BBF40D7E6D2A000E1260</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -561,7 +558,7 @@
 	<key>StatusbarIsVisible</key>
 	<true/>
 	<key>TimeStamp</key>
-	<real>226304640.644263</real>
+	<real>226389459.12536401</real>
 	<key>ToolbarDisplayMode</key>
 	<integer>1</integer>
 	<key>ToolbarIsVisible</key>
@@ -576,6 +573,7 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>BE30A0650D5F923000E0DB69</string>
 		<string>/Users/will/Projects/MultiClutch/InputManager/InputManager.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
@@ -656,7 +654,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>BE30A0650D5F923000E0DB69</string>
-				<string>BE924A520D773E840099120A</string>
+				<string>BE28BBF80D7E6DD3000E1260</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
@@ -872,8 +870,8 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C530D57069F1CE1000CFCEE</string>
-				<string>BE3983520D7CC2DA007E13DB</string>
-				<string>BE3983530D7CC2DA007E13DB</string>
+				<string>BE28BBE40D7E6CB3000E1260</string>
+				<string>BE28BBE50D7E6CB3000E1260</string>
 				<string>1CDD528C0622207200134675</string>
 				<string>1CD0528E0623707200166675</string>
 			</array>

@@ -41,7 +41,7 @@
 }
 
 -(void) loadKeyBindingsFile {
-	NSDictionary * prefs = [NSDictionary dictionaryWithContentsOfFile: 
+	NSMutableDictionary * prefs = [NSDictionary dictionaryWithContentsOfFile: 
 			   [NSHomeDirectory() stringByAppendingPathComponent:@"/Library/Preferences/com.wonderboots.MultiClutchBindings.plist"]];
 	Bindings = [[prefs  valueForKey:@"bindings"] retain];
 	if(Bindings == nil || ([prefs valueForKey:@"version"] == nil))
@@ -50,7 +50,7 @@
 		NSMutableDictionary *tempBindings = [[NSMutableDictionary alloc] init];
 		NSMutableDictionary *textEditBindings = [[NSMutableDictionary alloc] init];
 		[tempBindings setObject:textEditBindings forKey:@"Global"];
-		[tempPrefs setObject:@"b3" forKey:@"version"];
+		[tempPrefs setObject:@"b4" forKey:@"version"];
 		[tempPrefs setObject:tempBindings forKey:@"bindings"];
 		[tempPrefs writeToFile: [NSHomeDirectory() stringByAppendingPathComponent:@"/Library/Preferences/com.wonderboots.MultiClutchBindings.plist"] 
 					   atomically: YES];
@@ -58,6 +58,11 @@
 		NSLog(@"[MultiClutch] Made new Default Preferences");		
 	}
 	else {
+		if(![[prefs valueForKey:@"version"] isEqualToString:@"b4"]) { //update version number
+			[prefs setObject:@"b4" forKey:@"version"];
+			[prefs writeToFile: [NSHomeDirectory() stringByAppendingPathComponent:@"/Library/Preferences/com.wonderboots.MultiClutchBindings.plist"] 
+						atomically: YES];
+		}
 //		NSLog(@"[MultiClutch] Loaded Key Bindings");
 
 	}
@@ -184,25 +189,25 @@
 	BOOL shiftKeyDidPress = NO;
 	BOOL commandKeyDidPress = NO;
 	
-	if([[theBinding substringToIndex:2] isEqualToString:@"59"]) {
+	if([theBinding length] > 2 && [[theBinding substringToIndex:2] isEqualToString:@"59"]) {
 		NSLog(@"control");
 		CGPostKeyboardEvent((CGCharCode)0, (CGCharCode)59, true );
 		controlKeyDidPress = YES;
 		theBinding = [theBinding substringFromIndex:3];
 	}
-	if([[theBinding substringToIndex:2] isEqualToString:@"58"]) {
+	if([theBinding length] > 2 && [[theBinding substringToIndex:2] isEqualToString:@"58"]) {
 		NSLog(@"option");
 		CGPostKeyboardEvent((CGCharCode)0, (CGCharCode)58, true );
 		optionKeyDidPress = YES;
 		theBinding = [theBinding substringFromIndex:3];
 	}
-	if([[theBinding substringToIndex:2] isEqualToString:@"56"]) {
+	if([theBinding length] > 2 && [[theBinding substringToIndex:2] isEqualToString:@"56"]) {
 		NSLog(@"shift");
 		CGPostKeyboardEvent((CGCharCode)0, (CGCharCode)56, true );
 		shiftKeyDidPress = YES;
 		theBinding = [theBinding substringFromIndex:3];
 	}
-	if([[theBinding substringToIndex:2] isEqualToString:@"55"]) {
+	if([theBinding length] > 2 && [[theBinding substringToIndex:2] isEqualToString:@"55"]) {
 		NSLog(@"apple");
 		CGPostKeyboardEvent((CGCharCode)0, (CGCharCode)55, true);
 		commandKeyDidPress = YES;
