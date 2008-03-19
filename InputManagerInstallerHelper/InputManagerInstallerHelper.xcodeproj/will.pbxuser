@@ -75,6 +75,30 @@
 					PBXFindDataSource_LocationID,
 				);
 			};
+			PBXConfiguration.PBXFileTableDataSource3.XCSCMDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					411,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_SCM_ColumnID,
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
 			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
 				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
@@ -97,15 +121,15 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 226304671;
-			PBXWorkspaceStateSaveDate = 226304671;
+			PBXPerProjectTemplateStateSaveDate = 227643843;
+			PBXWorkspaceStateSaveDate = 227643843;
 		};
 		perUserProjectItems = {
-			BE434C000D7D22A800B08D82 /* PBXTextBookmark */ = BE434C000D7D22A800B08D82 /* PBXTextBookmark */;
 			BE4FE5400D668A8700B7C3F0 /* PBXTextBookmark */ = BE4FE5400D668A8700B7C3F0 /* PBXTextBookmark */;
 			BE4FE5410D668A8700B7C3F0 /* PBXTextBookmark */ = BE4FE5410D668A8700B7C3F0 /* PBXTextBookmark */;
+			BE5A16280D9191D100F8520E /* PBXTextBookmark */ = BE5A16280D9191D100F8520E /* PBXTextBookmark */;
+			BE5A16290D9191D100F8520E /* PBXTextBookmark */ = BE5A16290D9191D100F8520E /* PBXTextBookmark */;
 			BE9249A80D770AE50099120A /* PBXTextBookmark */ = BE9249A80D770AE50099120A /* PBXTextBookmark */;
-			BE9249FB0D7711580099120A /* PBXTextBookmark */ = BE9249FB0D7711580099120A /* PBXTextBookmark */;
 			BEA4A4C60D66B4DE00CD8FD0 /* PBXTextBookmark */ = BEA4A4C60D66B4DE00CD8FD0 /* PBXTextBookmark */;
 			BEA4A4C90D66B4DE00CD8FD0 /* PBXTextBookmark */ = BEA4A4C90D66B4DE00CD8FD0 /* PBXTextBookmark */;
 			BEA4A5750D66BC0700CD8FD0 /* PBXTextBookmark */ = BEA4A5750D66BC0700CD8FD0 /* PBXTextBookmark */;
@@ -117,9 +141,9 @@
 	};
 	08FB7796FE84155DC02AAC07 /* main.c */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1268, 1120}}";
-			sepNavSelRange = "{1869, 0}";
-			sepNavVisRange = "{1371, 880}";
+			sepNavIntBoundsRect = "{{0, 0}, {1272, 1152}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 933}";
 			sepNavWindowFrame = "{{70, -5}, {1307, 778}}";
 		};
 	};
@@ -134,22 +158,12 @@
 		isa = PBXCodeSenseManager;
 		indexTemplatePath = "";
 	};
-	BE434C000D7D22A800B08D82 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
-		name = "main.c: 58";
-		rLen = 0;
-		rLoc = 1869;
-		rType = 0;
-		vrLen = 880;
-		vrLoc = 1371;
-	};
 	BE4FE5400D668A8700B7C3F0 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 28";
 		rLen = 0;
-		rLoc = 164;
+		rLoc = 230;
 		rType = 0;
 		vrLen = 1337;
 		vrLoc = 0;
@@ -164,6 +178,26 @@
 		vrLen = 1768;
 		vrLoc = 0;
 	};
+	BE5A16280D9191D100F8520E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
+		name = "main.c: 58";
+		rLen = 0;
+		rLoc = 1935;
+		rType = 0;
+		vrLen = 880;
+		vrLoc = 1371;
+	};
+	BE5A16290D9191D100F8520E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
+		name = "main.c: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 933;
+		vrLoc = 0;
+	};
 	BE9249A80D770AE50099120A /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = BEA4A5660D66BB7200CD8FD0 /* InputManagerInstallerHelper.sh */;
@@ -173,16 +207,6 @@
 		rType = 0;
 		vrLen = 578;
 		vrLoc = 0;
-	};
-	BE9249FB0D7711580099120A /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
-		name = "main.c: 58";
-		rLen = 0;
-		rLoc = 1869;
-		rType = 0;
-		vrLen = 880;
-		vrLoc = 1371;
 	};
 	BEA4A4A80D66B47500CD8FD0 /* InputManagerInstallerHelper */ = {
 		activeExec = 0;

@@ -300,12 +300,15 @@
 								<string>1058C7AEFEA557BF11CA2CBB</string>
 								<string>19C28FB8FE9D52D311CA2CBB</string>
 								<string>1C37FBAC04509CD000000102</string>
+								<string>BE5A16130D9191BF00F8520E</string>
 								<string>1C37FABC05509CD000000102</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>28</integer>
+									<integer>5</integer>
+									<integer>1</integer>
+									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
@@ -346,7 +349,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>GestureShortcutsController.m</string>
+								<string>NSApplication_GESTURES.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -354,21 +357,21 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>GestureShortcutsController.m</string>
+										<string>NSApplication_GESTURES.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>BE28BBF70D7E6DD3000E1260</string>
+										<string>BE5A161C0D9191BF00F8520E</string>
 										<key>history</key>
 										<array>
 											<string>BE7C827C0D64498C00D4FAFF</string>
 											<string>BE7C829D0D644ACE00D4FAFF</string>
-											<string>BE4A15F90D6969E1005B5513</string>
 											<string>BED1CD470D696A5000724F73</string>
 											<string>BED1CDB00D69E60D00724F73</string>
-											<string>BEF49DA60D76763E003A213E</string>
-											<string>BE28BBCC0D7E6C4A000E1260</string>
-											<string>BE28BBEA0D7E6CCC000E1260</string>
+											<string>BE5A16140D9191BF00F8520E</string>
+											<string>BE5A16150D9191BF00F8520E</string>
+											<string>BE5A16160D9191BF00F8520E</string>
+											<string>BE5A16170D9191BF00F8520E</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -380,6 +383,10 @@
 											<string>BE30A0E80D5F995D00E0DB69</string>
 											<string>BEFCF5C00D5FAFBF00D20125</string>
 											<string>BE39CF3F0D68EA40000485E3</string>
+											<string>BE5A16180D9191BF00F8520E</string>
+											<string>BE5A16190D9191BF00F8520E</string>
+											<string>BE5A161A0D9191BF00F8520E</string>
+											<string>BE5A161B0D9191BF00F8520E</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -437,9 +444,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>BE28BBF30D7E6D2A000E1260</string>
+				<string>BE5A161D0D9191BF00F8520E</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>BE28BBF40D7E6D2A000E1260</string>
+				<string>BE5A161E0D9191BF00F8520E</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -558,7 +565,7 @@
 	<key>StatusbarIsVisible</key>
 	<true/>
 	<key>TimeStamp</key>
-	<real>226389459.12536401</real>
+	<real>227643792.04898399</real>
 	<key>ToolbarDisplayMode</key>
 	<integer>1</integer>
 	<key>ToolbarIsVisible</key>
@@ -573,7 +580,6 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>BE30A0650D5F923000E0DB69</string>
 		<string>/Users/will/Projects/MultiClutch/InputManager/InputManager.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
@@ -807,14 +813,12 @@
 							<key>Dock</key>
 							<array>
 								<dict>
-									<key>BecomeActive</key>
-									<true/>
 									<key>ContentConfiguration</key>
 									<dict>
 										<key>PBXProjectModuleGUID</key>
 										<string>1CDD528C0622207200134675</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>GestureShortcutsController.m</string>
+										<string></string>
 										<key>StatusBarVisibility</key>
 										<true/>
 									</dict>
@@ -835,6 +839,8 @@
 							<string>212pt</string>
 						</dict>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -870,8 +876,8 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C530D57069F1CE1000CFCEE</string>
-				<string>BE28BBE40D7E6CB3000E1260</string>
-				<string>BE28BBE50D7E6CB3000E1260</string>
+				<string>BECAD7A70D873B2F00EC45D1</string>
+				<string>BECAD7A80D873B2F00EC45D1</string>
 				<string>1CDD528C0622207200134675</string>
 				<string>1CD0528E0623707200166675</string>
 			</array>

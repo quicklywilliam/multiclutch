@@ -1,3 +1,5 @@
+//  Multiclutch is made available for use under the BSD license.
+
 #include <Security/Authorization.h>
 #include <Security/AuthorizationTags.h>
 #include <mach-o/dyld.h>

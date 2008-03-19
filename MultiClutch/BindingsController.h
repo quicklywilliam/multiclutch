@@ -1,9 +1,10 @@
 //
 //  BindingsController.h
-//  AirKeys
+//  MultiClutch
 //
 //  Model controller for the bindings dictionary (of app binding dictionaries).
 //  Copyright 2008 Wonderboots. Reasonable rights reserved.
+//  Multiclutch is made available for use under the BSD license.
 //
 
 #import <Cocoa/Cocoa.h>

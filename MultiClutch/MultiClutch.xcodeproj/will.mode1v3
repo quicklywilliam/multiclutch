@@ -300,20 +300,20 @@
 								<string>089C1671FE841209C02AAC07</string>
 								<string>1058C7ACFEA557BF11CA2CBB</string>
 								<string>1C37FBAC04509CD000000102</string>
+								<string>BE5A15E50D91918800F8520E</string>
 								<string>1C37FAAC04509CD000000102</string>
 								<string>1C37FABC05509CD000000102</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>7</integer>
-									<integer>5</integer>
-									<integer>1</integer>
-									<integer>0</integer>
+									<integer>43</integer>
+									<integer>37</integer>
+									<integer>36</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 0}, {240, 634}}</string>
+							<string>{{0, 131}, {240, 634}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -362,29 +362,29 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>BE28BC030D7E6E05000E1260</string>
+										<string>BE5A16090D91918800F8520E</string>
 										<key>history</key>
 										<array>
 											<string>BE4FE5CC0D669A3200B7C3F0</string>
-											<string>BED1CD770D696ACA00724F73</string>
-											<string>BEFD170D0D765B8000CBB788</string>
-											<string>BEFD19200D76620200CBB788</string>
-											<string>BEFD19830D76664500CBB788</string>
-											<string>BEFD19E50D766C3700CBB788</string>
-											<string>BEFD19E60D766C3700CBB788</string>
-											<string>BEFD19E70D766C3700CBB788</string>
 											<string>BE9249400D76811D0099120A</string>
 											<string>BE9249410D76811D0099120A</string>
 											<string>BE924A050D7738110099120A</string>
 											<string>BE924A060D7738110099120A</string>
-											<string>BE924A0E0D77398F0099120A</string>
-											<string>BE924A450D773B650099120A</string>
 											<string>BE3983620D7CD88C007E13DB</string>
-											<string>BE28BBFA0D7E6E05000E1260</string>
-											<string>BE28BBFB0D7E6E05000E1260</string>
-											<string>BE28BBFC0D7E6E05000E1260</string>
-											<string>BE28BBFD0D7E6E05000E1260</string>
-											<string>BE28BBFE0D7E6E05000E1260</string>
+											<string>BE5A15E60D91918800F8520E</string>
+											<string>BE5A15E70D91918800F8520E</string>
+											<string>BE5A15E80D91918800F8520E</string>
+											<string>BE5A15E90D91918800F8520E</string>
+											<string>BE5A15EA0D91918800F8520E</string>
+											<string>BE5A15EB0D91918800F8520E</string>
+											<string>BE5A15EC0D91918800F8520E</string>
+											<string>BE5A15ED0D91918800F8520E</string>
+											<string>BE5A15EE0D91918800F8520E</string>
+											<string>BE5A15EF0D91918800F8520E</string>
+											<string>BE5A15F00D91918800F8520E</string>
+											<string>BE5A15F10D91918800F8520E</string>
+											<string>BE5A15F20D91918800F8520E</string>
+											<string>BE5A15F30D91918800F8520E</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -408,10 +408,27 @@
 											<string>BE92494C0D76811D0099120A</string>
 											<string>BE924A090D7738110099120A</string>
 											<string>BE3983630D7CD88C007E13DB</string>
-											<string>BE28BBFF0D7E6E05000E1260</string>
-											<string>BE28BC000D7E6E05000E1260</string>
-											<string>BE28BC010D7E6E05000E1260</string>
-											<string>BE28BC020D7E6E05000E1260</string>
+											<string>BE5A15F40D91918800F8520E</string>
+											<string>BE5A15F50D91918800F8520E</string>
+											<string>BE5A15F60D91918800F8520E</string>
+											<string>BE5A15F70D91918800F8520E</string>
+											<string>BE5A15F80D91918800F8520E</string>
+											<string>BE5A15F90D91918800F8520E</string>
+											<string>BE5A15FA0D91918800F8520E</string>
+											<string>BE5A15FB0D91918800F8520E</string>
+											<string>BE5A15FC0D91918800F8520E</string>
+											<string>BE5A15FD0D91918800F8520E</string>
+											<string>BE5A15FE0D91918800F8520E</string>
+											<string>BE5A15FF0D91918800F8520E</string>
+											<string>BE5A16000D91918800F8520E</string>
+											<string>BE5A16010D91918800F8520E</string>
+											<string>BE5A16020D91918800F8520E</string>
+											<string>BE5A16030D91918800F8520E</string>
+											<string>BE5A16040D91918800F8520E</string>
+											<string>BE5A16050D91918800F8520E</string>
+											<string>BE5A16060D91918800F8520E</string>
+											<string>BE5A16070D91918800F8520E</string>
+											<string>BE5A16080D91918800F8520E</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -469,9 +486,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>BE28BBC30D7E6BF9000E1260</string>
+				<string>BE5A160A0D91918800F8520E</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>BE28BBC40D7E6BF9000E1260</string>
+				<string>BE5A160B0D91918800F8520E</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -590,7 +607,7 @@
 	<key>StatusbarIsVisible</key>
 	<true/>
 	<key>TimeStamp</key>
-	<real>226389509.56072101</real>
+	<real>227643556.08128899</real>
 	<key>ToolbarDisplayMode</key>
 	<integer>1</integer>
 	<key>ToolbarIsVisible</key>
@@ -605,8 +622,6 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>1C530D57069F1CE1000CFCEE</string>
-		<string>BE7C82380D64480D00D4FAFF</string>
 		<string>/Users/will/Projects/MultiClutch/MultiClutch/MultiClutch.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
@@ -845,7 +860,7 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CDD528C0622207200134675</string>
 										<key>PBXProjectModuleLabel</key>
-										<string></string>
+										<string>AppsViewController.m</string>
 										<key>StatusBarVisibility</key>
 										<true/>
 									</dict>
@@ -903,8 +918,8 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C530D57069F1CE1000CFCEE</string>
-				<string>BE28BBD90D7E6CA9000E1260</string>
-				<string>BE28BBDA0D7E6CA9000E1260</string>
+				<string>BECAD7B20D873B7000EC45D1</string>
+				<string>BECAD7B30D873B7000EC45D1</string>
 				<string>1CDD528C0622207200134675</string>
 				<string>1CD0528E0623707200166675</string>
 			</array>

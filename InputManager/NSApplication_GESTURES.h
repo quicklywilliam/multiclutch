@@ -1,9 +1,10 @@
 //
 //  NSApplication_GESTURES.h
-//  MultiClutchInputManager
+//  MultiClutch InputManager
 //
 //  Created by William Henderson on 2/10/08.
 //  Copyright 2008 __MyCompanyName__. All rights reserved.
+//  Multiclutch is made available for use under the BSD license.
 //
 
 #import <AppKit/AppKit.h>

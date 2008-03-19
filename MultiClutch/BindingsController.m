@@ -4,6 +4,7 @@
 //
 //  Created by William Henderson on 2/10/08.
 //  Copyright 2008 Wonderboots. Reasonable rights reserved.
+//  Multiclutch is made available for use under the BSD license.
 //
 
 #import "BindingsController.h"

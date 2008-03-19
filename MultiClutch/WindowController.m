@@ -4,6 +4,7 @@
 //
 //  Controller for our bindings views.  A delegate for the main window.
 //  Copyright 2008 Wonderboots. Reasonable rights reserved.
+//  Multiclutch is made available for use under the BSD license.
 //
 
 #import "WindowController.h"
